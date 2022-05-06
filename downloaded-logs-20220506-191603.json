@@ -1,0 +1,380 @@
+[
+  {
+    "insertId": "6275ab93000011d067f16d25",
+    "jsonPayload": {
+      "message": "A text payload",
+      "timestamp": "2022-05-06T23:13:23.002Z",
+      "logName": "projects/REDACTED_PROJECT_ID/logs/my_log",
+      "resource": {
+        "type": "gae_app",
+        "labels": {
+          "module_id": "default",
+          "version_id": "logsync-bug"
+        }
+      }
+    },
+    "resource": {
+      "type": "gae_app",
+      "labels": {
+        "zone": "us3",
+        "version_id": "logsync-bug",
+        "module_id": "default",
+        "project_id": "REDACTED_PROJECT_ID"
+      }
+    },
+    "timestamp": "2022-05-06T23:13:23.004560Z",
+    "labels": {
+      "clone_id": "00c61b117cc22b0f0b2af849f0adb697b53ea89c6f462b8a2d42e40a379d2a464fd6289df0b3bdbfcae368799793ee0b2e29d1e88338641cd2cc9bc7cef7e9533f53a73f8d"
+    },
+    "logName": "projects/REDACTED_PROJECT_ID/logs/stdout",
+    "receiveTimestamp": "2022-05-06T23:13:23.270510336Z"
+  },
+  {
+    "insertId": "6275ab93000013e8d4ec43a8",
+    "jsonPayload": {
+      "timestamp": "2022-05-06T23:13:23.004Z",
+      "message": {
+        "message": "A JSON payload"
+      },
+      "resource": {
+        "labels": {
+          "module_id": "default",
+          "version_id": "logsync-bug"
+        },
+        "type": "gae_app"
+      },
+      "logName": "projects/REDACTED_PROJECT_ID/logs/my_log"
+    },
+    "resource": {
+      "type": "gae_app",
+      "labels": {
+        "version_id": "logsync-bug",
+        "module_id": "default",
+        "project_id": "REDACTED_PROJECT_ID",
+        "zone": "us3"
+      }
+    },
+    "timestamp": "2022-05-06T23:13:23.005096Z",
+    "labels": {
+      "clone_id": "00c61b117cc22b0f0b2af849f0adb697b53ea89c6f462b8a2d42e40a379d2a464fd6289df0b3bdbfcae368799793ee0b2e29d1e88338641cd2cc9bc7cef7e9533f53a73f8d"
+    },
+    "logName": "projects/REDACTED_PROJECT_ID/logs/stdout",
+    "receiveTimestamp": "2022-05-06T23:13:23.270510336Z"
+  },
+  {
+    "insertId": "6275ab930000165d3e64f574",
+    "jsonPayload": {
+      "resource": {
+        "type": "gae_app",
+        "labels": {
+          "version_id": "logsync-bug",
+          "module_id": "default"
+        }
+      },
+      "message": "A text payload, severity=EMERGENCY",
+      "timestamp": "2022-05-06T23:13:23.005Z",
+      "logName": "projects/REDACTED_PROJECT_ID/logs/my_log"
+    },
+    "resource": {
+      "type": "gae_app",
+      "labels": {
+        "zone": "us3",
+        "version_id": "logsync-bug",
+        "module_id": "default",
+        "project_id": "REDACTED_PROJECT_ID"
+      }
+    },
+    "timestamp": "2022-05-06T23:13:23.005725Z",
+    "severity": "EMERGENCY",
+    "labels": {
+      "clone_id": "00c61b117cc22b0f0b2af849f0adb697b53ea89c6f462b8a2d42e40a379d2a464fd6289df0b3bdbfcae368799793ee0b2e29d1e88338641cd2cc9bc7cef7e9533f53a73f8d"
+    },
+    "logName": "projects/REDACTED_PROJECT_ID/logs/stdout",
+    "receiveTimestamp": "2022-05-06T23:13:23.270510336Z"
+  },
+  {
+    "insertId": "6275ab93000016f2ab892c7e",
+    "jsonPayload": {
+      "message": "A text payload, severity=ALERT",
+      "logName": "projects/REDACTED_PROJECT_ID/logs/my_log",
+      "timestamp": "2022-05-06T23:13:23.005Z",
+      "resource": {
+        "type": "gae_app",
+        "labels": {
+          "version_id": "logsync-bug",
+          "module_id": "default"
+        }
+      }
+    },
+    "resource": {
+      "type": "gae_app",
+      "labels": {
+        "module_id": "default",
+        "project_id": "REDACTED_PROJECT_ID",
+        "zone": "us3",
+        "version_id": "logsync-bug"
+      }
+    },
+    "timestamp": "2022-05-06T23:13:23.005874Z",
+    "severity": "ALERT",
+    "labels": {
+      "clone_id": "00c61b117cc22b0f0b2af849f0adb697b53ea89c6f462b8a2d42e40a379d2a464fd6289df0b3bdbfcae368799793ee0b2e29d1e88338641cd2cc9bc7cef7e9533f53a73f8d"
+    },
+    "logName": "projects/REDACTED_PROJECT_ID/logs/stdout",
+    "receiveTimestamp": "2022-05-06T23:13:23.270510336Z"
+  },
+  {
+    "insertId": "6275ab93000017ad155bca25",
+    "jsonPayload": {
+      "message": "A text payload, severity=CRITICAL",
+      "timestamp": "2022-05-06T23:13:23.005Z",
+      "logName": "projects/REDACTED_PROJECT_ID/logs/my_log",
+      "resource": {
+        "labels": {
+          "module_id": "default",
+          "version_id": "logsync-bug"
+        },
+        "type": "gae_app"
+      }
+    },
+    "resource": {
+      "type": "gae_app",
+      "labels": {
+        "project_id": "REDACTED_PROJECT_ID",
+        "zone": "us3",
+        "version_id": "logsync-bug",
+        "module_id": "default"
+      }
+    },
+    "timestamp": "2022-05-06T23:13:23.006061Z",
+    "severity": "CRITICAL",
+    "labels": {
+      "clone_id": "00c61b117cc22b0f0b2af849f0adb697b53ea89c6f462b8a2d42e40a379d2a464fd6289df0b3bdbfcae368799793ee0b2e29d1e88338641cd2cc9bc7cef7e9533f53a73f8d"
+    },
+    "logName": "projects/REDACTED_PROJECT_ID/logs/stdout",
+    "receiveTimestamp": "2022-05-06T23:13:23.270510336Z"
+  },
+  {
+    "insertId": "6275ab930000183a105bcc63",
+    "jsonPayload": {
+      "resource": {
+        "type": "gae_app",
+        "labels": {
+          "version_id": "logsync-bug",
+          "module_id": "default"
+        }
+      },
+      "timestamp": "2022-05-06T23:13:23.005Z",
+      "logName": "projects/REDACTED_PROJECT_ID/logs/my_log",
+      "message": "A text payload, severity=ERROR"
+    },
+    "resource": {
+      "type": "gae_app",
+      "labels": {
+        "version_id": "logsync-bug",
+        "module_id": "default",
+        "zone": "us3",
+        "project_id": "REDACTED_PROJECT_ID"
+      }
+    },
+    "timestamp": "2022-05-06T23:13:23.006202Z",
+    "severity": "ERROR",
+    "labels": {
+      "clone_id": "00c61b117cc22b0f0b2af849f0adb697b53ea89c6f462b8a2d42e40a379d2a464fd6289df0b3bdbfcae368799793ee0b2e29d1e88338641cd2cc9bc7cef7e9533f53a73f8d"
+    },
+    "logName": "projects/REDACTED_PROJECT_ID/logs/stdout",
+    "receiveTimestamp": "2022-05-06T23:13:23.270510336Z"
+  },
+  {
+    "insertId": "6275ab93000018e0ab8b411d",
+    "jsonPayload": {
+      "message": "A text payload, severity=WARNING",
+      "timestamp": "2022-05-06T23:13:23.006Z",
+      "logName": "projects/REDACTED_PROJECT_ID/logs/my_log",
+      "resource": {
+        "type": "gae_app",
+        "labels": {
+          "version_id": "logsync-bug",
+          "module_id": "default"
+        }
+      }
+    },
+    "resource": {
+      "type": "gae_app",
+      "labels": {
+        "version_id": "logsync-bug",
+        "project_id": "REDACTED_PROJECT_ID",
+        "zone": "us3",
+        "module_id": "default"
+      }
+    },
+    "timestamp": "2022-05-06T23:13:23.006368Z",
+    "severity": "WARNING",
+    "labels": {
+      "clone_id": "00c61b117cc22b0f0b2af849f0adb697b53ea89c6f462b8a2d42e40a379d2a464fd6289df0b3bdbfcae368799793ee0b2e29d1e88338641cd2cc9bc7cef7e9533f53a73f8d"
+    },
+    "logName": "projects/REDACTED_PROJECT_ID/logs/stdout",
+    "receiveTimestamp": "2022-05-06T23:13:23.270510336Z"
+  },
+  {
+    "insertId": "6275ab930000194f5e3c0023",
+    "jsonPayload": {
+      "timestamp": "2022-05-06T23:13:23.006Z",
+      "logName": "projects/REDACTED_PROJECT_ID/logs/my_log",
+      "resource": {
+        "type": "gae_app",
+        "labels": {
+          "module_id": "default",
+          "version_id": "logsync-bug"
+        }
+      },
+      "message": "A text payload, severity=NOTICE"
+    },
+    "resource": {
+      "type": "gae_app",
+      "labels": {
+        "project_id": "REDACTED_PROJECT_ID",
+        "zone": "us3",
+        "version_id": "logsync-bug",
+        "module_id": "default"
+      }
+    },
+    "timestamp": "2022-05-06T23:13:23.006479Z",
+    "severity": "NOTICE",
+    "labels": {
+      "clone_id": "00c61b117cc22b0f0b2af849f0adb697b53ea89c6f462b8a2d42e40a379d2a464fd6289df0b3bdbfcae368799793ee0b2e29d1e88338641cd2cc9bc7cef7e9533f53a73f8d"
+    },
+    "logName": "projects/REDACTED_PROJECT_ID/logs/stdout",
+    "receiveTimestamp": "2022-05-06T23:13:23.270510336Z"
+  },
+  {
+    "insertId": "6275ab9300001a66f8fa2d68",
+    "jsonPayload": {
+      "resource": {
+        "labels": {
+          "module_id": "default",
+          "version_id": "logsync-bug"
+        },
+        "type": "gae_app"
+      },
+      "timestamp": "2022-05-06T23:13:23.006Z",
+      "logName": "projects/REDACTED_PROJECT_ID/logs/my_log",
+      "message": "A text payload, severity=INFO"
+    },
+    "resource": {
+      "type": "gae_app",
+      "labels": {
+        "version_id": "logsync-bug",
+        "zone": "us3",
+        "module_id": "default",
+        "project_id": "REDACTED_PROJECT_ID"
+      }
+    },
+    "timestamp": "2022-05-06T23:13:23.006758Z",
+    "severity": "INFO",
+    "labels": {
+      "clone_id": "00c61b117cc22b0f0b2af849f0adb697b53ea89c6f462b8a2d42e40a379d2a464fd6289df0b3bdbfcae368799793ee0b2e29d1e88338641cd2cc9bc7cef7e9533f53a73f8d"
+    },
+    "logName": "projects/REDACTED_PROJECT_ID/logs/stdout",
+    "receiveTimestamp": "2022-05-06T23:13:23.270510336Z"
+  },
+  {
+    "insertId": "6275ab9300001b2f2909a991",
+    "jsonPayload": {
+      "logName": "projects/REDACTED_PROJECT_ID/logs/my_log",
+      "message": "A text payload, severity=DEBUG",
+      "timestamp": "2022-05-06T23:13:23.006Z",
+      "resource": {
+        "labels": {
+          "module_id": "default",
+          "version_id": "logsync-bug"
+        },
+        "type": "gae_app"
+      }
+    },
+    "resource": {
+      "type": "gae_app",
+      "labels": {
+        "project_id": "REDACTED_PROJECT_ID",
+        "version_id": "logsync-bug",
+        "module_id": "default",
+        "zone": "us3"
+      }
+    },
+    "timestamp": "2022-05-06T23:13:23.006959Z",
+    "severity": "DEBUG",
+    "labels": {
+      "clone_id": "00c61b117cc22b0f0b2af849f0adb697b53ea89c6f462b8a2d42e40a379d2a464fd6289df0b3bdbfcae368799793ee0b2e29d1e88338641cd2cc9bc7cef7e9533f53a73f8d"
+    },
+    "logName": "projects/REDACTED_PROJECT_ID/logs/stdout",
+    "receiveTimestamp": "2022-05-06T23:13:23.270510336Z"
+  },
+  {
+    "textPayload": "Container called exit(1).",
+    "insertId": "6275ab930001e8f8734a46f6",
+    "resource": {
+      "type": "gae_app",
+      "labels": {
+        "version_id": "logsync-bug",
+        "zone": "us3",
+        "project_id": "REDACTED_PROJECT_ID",
+        "module_id": "default"
+      }
+    },
+    "timestamp": "2022-05-06T23:13:23.125109055Z",
+    "severity": "WARNING",
+    "labels": {
+      "clone_id": "00c61b117cc22b0f0b2af849f0adb697b53ea89c6f462b8a2d42e40a379d2a464fd6289df0b3bdbfcae368799793ee0b2e29d1e88338641cd2cc9bc7cef7e9533f53a73f8d"
+    },
+    "logName": "projects/REDACTED_PROJECT_ID/logs/varlog%2Fsystem",
+    "receiveTimestamp": "2022-05-06T23:13:23.404897421Z"
+  },
+  {
+    "insertId": "dlurbffv0r11y",
+    "resource": {
+      "type": "gae_app",
+      "labels": {
+        "module_id": "default",
+        "zone": "us3",
+        "project_id": "REDACTED_PROJECT_ID",
+        "version_id": "logsync-bug"
+      }
+    },
+    "timestamp": "2022-05-06T23:13:24Z",
+    "labels": {
+      "verbose_message": "Log match condition fired for GAE Application with {module_id=default, project_id=REDACTED_PROJECT_ID, version_id=logsync-bug, zone=us3}.",
+      "terse_message": "Log match condition fired for GAE Application with {module_id=default, project_id=REDACTED_PROJECT_ID, version_id=logsync-bug, zone=us3}.",
+      "activity_type_name": "ViolationOpenEventv1",
+      "started_at": "1651878804",
+      "resource_name": "GAE Application labels {module_id=default, project_id=REDACTED_PROJECT_ID, version_id=logsync-bug, zone=us3}",
+      "violation_id": "0.mhniw89xs2dc",
+      "policy_id": "1089657569738716913"
+    },
+    "logName": "projects/REDACTED_PROJECT_ID/logs/monitoring.googleapis.com%2FViolationOpenEventv1",
+    "receiveTimestamp": "2022-05-06T23:13:24.405448251Z"
+  },
+  {
+    "insertId": "z95tvxfvpsmw9",
+    "resource": {
+      "type": "gae_app",
+      "labels": {
+        "zone": "us3",
+        "module_id": "default",
+        "version_id": "logsync-bug",
+        "project_id": "REDACTED_PROJECT_ID"
+      }
+    },
+    "timestamp": "2022-05-06T23:13:24Z",
+    "labels": {
+      "activity_type_name": "ViolationOpenEventv1",
+      "policy_id": "1089657569738716913",
+      "violation_id": "0.mhniw89xs2dc",
+      "started_at": "1651878804",
+      "resource_name": "GAE Application labels {module_id=default, project_id=REDACTED_PROJECT_ID, version_id=logsync-bug, zone=us3}",
+      "terse_message": "Log match condition fired for GAE Application with {module_id=default, project_id=REDACTED_PROJECT_ID, version_id=logsync-bug, zone=us3}.",
+      "verbose_message": "Log match condition fired for GAE Application with {module_id=default, project_id=REDACTED_PROJECT_ID, version_id=logsync-bug, zone=us3}."
+    },
+    "logName": "projects/REDACTED_PROJECT_ID/logs/monitoring.googleapis.com%2FViolationOpenEventv1",
+    "receiveTimestamp": "2022-05-06T23:13:24.315552211Z"
+  }
+]
